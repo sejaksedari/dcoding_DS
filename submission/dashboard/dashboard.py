@@ -119,11 +119,21 @@ def create_rfm_df(df):
     return rfm_df
 
 
-# load berkas data CSV
-all_df = pd.read_csv("all_data.csv")
+# # load berkas data CSV
+# all_df = pd.read_csv("all_data.csv")
 
 
 
+# Ensure the current working directory is correct
+current_dir = os.path.dirname(os.path.abspath(__file__))
+csv_file_path = os.path.join(current_dir, "all_data.csv")
+
+# Load the CSV file
+try:
+    all_df = pd.read_csv(csv_file_path)
+except FileNotFoundError:
+    st.error(f"File not found: {csv_file_path}")
+    st.stop()
 
 
 
