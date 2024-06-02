@@ -1,4 +1,7 @@
-https://dcodingds-nmq8ssdarvkzra6ye37mhc.streamlit.app/
+[1] Link Deployment Streamlit: https://dcodingds-nmq8ssdarvkzra6ye37mhc.streamlit.app/
 
 Usaha Deployment ke Streamlit sudah dilakukan, tetapi masih error di tengah running page
 Telah disertakan pdf tampilan page dashboard yang telah dibuat
+
+[2] Link Colab: https://colab.research.google.com/drive/1VwtnpsZ5rUph5CDq_Wb4wvGg6RIaeMWF#scrollTo=WWEKu_eD5dEs&uniqifier=6
+[3] Link GitHub: https://github.com/sejaksedari/dcoding_DS/tree/main/submission
